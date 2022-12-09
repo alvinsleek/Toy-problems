@@ -2,7 +2,7 @@
 
 function grades(input){ 
 //input entered must be an integer between 0 - 100
-    const input = parseInt(prompt('enter a student mark:));
+    const input = parseInt(prompt('enter a student mark:'));
     if (isNan(input) ||input < 0 || input > 100){
         console.log("Enter a valid input")
 
@@ -19,6 +19,7 @@ function grades(input){
         }else{
             grade = 'E';
         }
+        //return the grade
     return grade;
     }
 }
