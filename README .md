@@ -9,7 +9,7 @@ The project is a program that is meant to calculate grades of students upon give
 The program is a code solution that checks on speed control through use of a function. The detector takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
 ## 3. NET SALARY CALCULATOR
-The program seeks to find a solution in calculating net salaries of employees through deducting tax deductions (NHIF,NSSF)from gross salary. The program gets inputs of employees' gross salaries then calculates the PAYE according to the amount bracket it falls in, hence giving out the net salary
+The program seeks to find a solution in CAlculating net salaries of employees through deducting tax deductions (NHIF,NSSF)from gross salary. The program gets inputs of employees' gross salaries then calculates the PAYE according to the amount bracket it falls in, hence giving out the net salary
 ## SET UP INSTRUCTIONS
 
 1. copy my github URL to your browser (https://github.com/alvinsleek/Toy-problems)
