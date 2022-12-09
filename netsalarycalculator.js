@@ -7,23 +7,28 @@ function salarycalculator(){
 //show case the value of the gross salary
     console.log("gross salary = ${grossSalary}");
 
-
-    let PAYE;//we use let since the value changes;it's not constant
+//we use let since the value changes;it's not constant
+    let PAYE;
     if(grossSalary <= 24000){
-        PAYE = grossSalary * 10/100;
-        //PAYE is calculated according to the gross salary amount and percentage
+        PAYE = grossSalary * 0.1;
+//PAYE is calculated according to the gross salary amount and percentage
     }
     else if(grossSalary > 24000 &&grossSalary <= 32333){
-        PAYE = grossSalary * 25/100;
+        PAYE = grossSalary * 0.25;
     }
     else if(grossSalary > 32333){
-        PAYE = grossSalary * 30/100;
+        PAYE = grossSalary * 0.3;
     }
 }
+//displaying the deduction value
     console.log("Pay as you earn=${PAYE}");
 
-    let nhif;//variable nhif is declared using let as its value is not fixed
+//NHIF Deductions
 
+//variable nhif is declared using let as its value is not fixed
+
+    let nhif;
+//introduction of if statements to validate the value inputs
     if(grossSalary < 6000){
         nhif = 150;
     }
@@ -75,22 +80,26 @@ function salarycalculator(){
     else if(grossSalary >= 100000) {
         nhif = 1700;
     }
-  
-    console.log("nhif deduction = ${nhif}");//deduction value is displayed here after calculations
-
-    let nssf;//variable nssf is declared
+//deduction value is displayed here after calculations
+    console.log("nhif deduction = ${nhif}");
+//NSSF Deductions
+//variable nssf is declared
+    let nssf;
 
         nssf = grossSalary * 5/100;
-
+//if condition where if the nssf is above 400, the maximum amount to be deducted will be 400
     if(nssf > 400){
         nssf = 400;
     }
     console.log("nssf dediuction = ${nssf}");
 
-    const AllDeductions = PAYE + nssf + nhif;//
-    console.log("sum deductions = ${AllDedeuctions}");//displays the sum deductions done.
+//all the deductions are summed up here and output is given
+    const AllDeductions = PAYE + nssf + nhif;
 
+//displays the sum deductions done.
+    console.log("sum deductions = ${AllDedeuctions}");
     const netSalary = grossSalary - AllDeductions;//
     console.log('net salary = ${netSalary}');
 
-    console.log(salarycalculator)//all console logs will be output
+//all console logs will be output
+    console.log(salarycalculator)
