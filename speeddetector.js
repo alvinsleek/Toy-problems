@@ -1,15 +1,18 @@
 function detector(inputspeed) {
+    let points = 0;
 
-    let points;
+    const maxSpeed = 70;
 
-    if(inputspeed<70)
-    console.log(“Ok”)
-    else
-        {
+    if(inputSpeed < maxSpeed){
+        console.log('Ok');
+        return;
+    }
+
+    if(inputspeed > maxSpeed){
     console.log("Points:"+((inputspeed-70)/5));
+    }
+    const Points = Math.floor((inputSpeed - maxSpeed) / 5);
 
-    if[(inputspeed-70)/5] > 12;
-
-    console.log(“License suspended.”);
-}
+    if(Points > 12);
+    console.log('License suspended.');
 }
