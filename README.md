@@ -1,17 +1,22 @@
+TOY PROBLEMS
 
-# Student Grade Generator
+ Problem 1. Student Grade Generator
 
-The project is a program that is meant to calculate grades of 
-students upon given inputs of the marks scored by them.
+The project is a program that is meant to calculate grades of students upon given inputs of the marks scored by them.
+Description
+The user is prompted to input student marks which should be between 0 and 100.
+The output should correspond the correct grade i.e
+A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-#Speed Detector
+Problem 2. Speed Detector
 
-The program is a code solution that checks on speed control through use of a function. 
+The program is a code solution that checks on speed control through use of a function. The detector takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
-#Net Salary Calculator
 
-The program seeks to find a solution in calculating net salaries of employees through deducting 
-tax deductions from gross salary.
+Problem 3.Net Salary Calculator
+
+The program seeks to find a solution in calculating net salaries of employees through deducting tax deductions (NHIF,NSSF)from gross salary.
+The program gets inputs of employees' gross salaries then calculates the PAYE according to the amount bracket it falls in, hence giving out the net salary
 
 
 ## Authors
@@ -27,9 +32,13 @@ tax deductions from gross salary.
 
 
 ## Set Up instructions
-1. You are expected to clone my files from the repository into your device.
-2. Run Node.js
-3. Open your text editor of choice and run them.
+1. copy my github URL to your browser (https://github.com/alvinsleek/Toy-problems)
+2. you are expected to clone my files from the repository into your device.
+3. Run Node.js
+4. Open your text editor(VS Code preferrrably) of choice and run them.
+
+
+
 ## License
 
 [MIT](https://github.com/alvinsleek/Toy-problems/blob/main/LICENSE)
